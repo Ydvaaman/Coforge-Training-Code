@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE customers [
+        <!ELEMENT customers (customer)*>
+        <!ELEMENT customer (id|name|salary)*>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT salary (#PCDATA)>
+        ]>
+<customers>
+    <customer>
+        <id>
+            10001
+        </id>
+        <name>
+            aman kumar
+        </name>
+        <salary>39999</salary>
+    </customer>
+    <customer>
+        <id>
+            10001
+        </id>
+        <name>
+            aman kumar
+        </name>
+        <salary>39999</salary>
+    </customer>
+    <customer>
+        <id>
+            10001
+        </id>
+        <name>
+            aman kumar
+        </name>
+        <salary>39999</salary>
+    </customer>
+</customers>
